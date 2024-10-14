@@ -16,6 +16,7 @@ import com.practica.rfc_nss.util.FuncionesRfcUtils;
 @Service
 public class GeneradorRfcServiceImpl implements GeneradorRfcService {
 
+    
     @Override
     public ResponseRfcDTO calcularRFC(RequestGenerarRfcDTO request) {
         ResponseRfcDTO datosRfc = new ResponseRfcDTO();
